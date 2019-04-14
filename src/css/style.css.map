@@ -1,0 +1,19 @@
+{
+    "version": 3,
+    "mappings": "AEIA,AAAA,QAAQ,CAAA;EACJ,KAAK,EAJC,GAAG;EAKT,MAAM,EAJC,GAAG;EAKV,gBAAgB,EAAE,GAAG;EACrB,MAAM,EAAE,OAAO;CAClB",
+    "sources": [
+        "style.scss",
+        "scss/Components/_baseComp.scss",
+        "scss/Components/_areaButton.scss",
+        "scss/Components/_upperProfileSection.scss",
+        "scss/Global/_baseGlobal.scss",
+        "scss/Global/_global.scss",
+        "scss/Helpers/_baseHelpers.scss",
+        "scss/Helpers/_colors.scss",
+        "scss/Helpers/_mixins.scss",
+        "scss/Helpers/_fonts.scss",
+        "scss/Pages/_basePages.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
