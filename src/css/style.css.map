@@ -1,11 +1,13 @@
 {
     "version": 3,
-    "mappings": "AEIA,AAAA,QAAQ,CAAA;EACJ,KAAK,EAJC,GAAG;EAKT,MAAM,EAJC,GAAG;EAKV,gBAAgB,EAAE,GAAG;EACrB,MAAM,EAAE,OAAO;CAClB",
+    "mappings": "AEIA,AAAA,QAAQ,CAAA;EACJ,KAAK,EAJC,MAAM;EAKZ,MAAM,EALA,MAAM;EAMZ,gBAAgB,EAAC,IAAI;EACrB,MAAM,EAAE,OAAO;EACf,OAAO,EAAE,YAAY;CACxB;;ACTD,AAAA,oBAAoB,CAAA;EAChB,KAAK,EAAE,IAAI;EACX,QAAQ,EAAE,QAAQ;CACrB;;ACHD,AAAA,cAAc,CAAA;EACV,KAAK,EAAC,GAAG;EACT,QAAQ,EAAE,QAAQ;EAClB,IAAI,EAAE,KAAK;EACX,GAAG,EAAE,IAAI;CAIZ;;AARD,AAKI,cALU,CAKV,WAAW,CAAA;EACP,KAAK,EAAE,IAAI;CACd;;ACNL,AAAA,gBAAgB,CAAA;EACZ,KAAK,EAAE,IAAI;CACd",
     "sources": [
         "style.scss",
         "scss/Components/_baseComp.scss",
-        "scss/Components/_areaButton.scss",
-        "scss/Components/_upperProfileSection.scss",
+        "scss/Components/ProfileSection/_areaButton.scss",
+        "scss/Components/ProfileSection/_upperProfileSection.scss",
+        "scss/Components/ProfileSection/_avatar.scss",
+        "scss/Components/ProfileSection/_profileSection.scss",
         "scss/Global/_baseGlobal.scss",
         "scss/Global/_global.scss",
         "scss/Helpers/_baseHelpers.scss",

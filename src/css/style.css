@@ -1,7 +1,28 @@
 .areaBtn {
-  width: 8vw;
-  height: 9vw;
-  background-color: red;
+  width: 12.5vw;
+  height: 12.5vw;
+  background-color: gray;
   cursor: pointer;
+  display: inline-block;
+}
+
+.upperProfileSection {
+  width: 100%;
+  position: relative;
+}
+
+.avatar-holder {
+  width: 45%;
+  position: absolute;
+  left: 6.8vw;
+  top: .8vh;
+}
+
+.avatar-holder .avatar-img {
+  width: 100%;
+}
+
+.profile-section {
+  width: 25vw;
 }
 /*# sourceMappingURL=style.css.map */

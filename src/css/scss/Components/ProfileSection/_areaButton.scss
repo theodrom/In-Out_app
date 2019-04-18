@@ -1,0 +1,13 @@
+
+$abWidth: 12.5vw;
+$abHeight: $abWidth;
+
+.areaBtn{
+    width: $abWidth;
+    height: $abHeight;
+    background-color:gray;
+    cursor: pointer;
+    display: inline-block;
+}
+
+

@@ -1,10 +1,9 @@
 import React from 'react'; 
-import User from './../../../assets/img/user-circle-512.png';
 
-const Avatar = () => {
+const Avatar = ({userImg}) => {
     return(
-        <div>
-            <img src={User} alt="user" title="the user icon"/>
+        <div className="avatar-holder">
+            <img className="avatar-img" src={userImg} alt="user" title="the user icon"/>
         </div>
     ); 
 };
