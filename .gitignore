@@ -31,4 +31,4 @@ yarn-error.log*
 # Runtime data
 pids
 *.pid
-*.seed
+*.seed 
