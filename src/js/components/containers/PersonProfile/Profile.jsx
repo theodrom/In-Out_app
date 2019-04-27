@@ -4,7 +4,7 @@ import InfoProfileSection from './InfoProfileSection.jsx';
 import BottomProfileSection  from "./BottomProfileSection.jsx";
 
 const Profile = (props) => {
-    return(
+    return( 
         <section className="profile-section">
             <UpperProfileSection {...props}></UpperProfileSection>
             <InfoProfileSection {...props}></InfoProfileSection>

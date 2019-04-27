@@ -4,7 +4,6 @@ import Avatar from '../../presentational/Avatar.jsx';
 import User from './../../../../assets/img/user-circle-512.png';
 
 const UpperProfileSection = (props) => {
-    
     return (
         <section className="upperProfileSection">
             <Avatar {...props} userimg={props.imageurl ? props.imageurl : User} />

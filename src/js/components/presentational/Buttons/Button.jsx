@@ -4,7 +4,7 @@ const Button = ({btnLabel, btnStateClass}) => {
     return(
         <div className="btn-holder">
             <button className={`btn ${btnStateClass} `}>
-                {btnLabel} button text
+                {btnLabel} button text 
             </button>
         </div>
     );

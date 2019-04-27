@@ -3,7 +3,7 @@ import Button from './../../presentational/Buttons/Button.jsx';
 
 const BottomProfileSection = () => {
     return(
-        <section className="bottomProfileSection">
+        <section className="bottomProfileSection"> 
             <Button>
 
             </Button>

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';  
 
 const LabelInfo = (props) => {
-    console.log(props.infovalue);
+    console.log(props.infovalue); 
     return(
         <div className="">
             <p className="label-info-p">

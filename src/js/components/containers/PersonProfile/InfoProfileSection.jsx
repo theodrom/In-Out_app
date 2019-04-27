@@ -7,18 +7,6 @@ const InfoProfileSection = (props) => {
     const [displayEmail, setDisplayEmail] = useState("no-display");
     const [displayMobile, setDisplayMobile] = useState("no-display");
 
-    // let fnameValue = "",
-    //     lnameValue = "",
-    //     specValue = "",
-    //     emailValue = "",
-    //     mobileValue = "";
-
-    // fnameValue = "theo";
-    // lnameValue = "m";
-    // specValue = "Developer";
-    //     emailValue = "e";
-    //     mobileValue = "123456789";
-
         useEffect(() => {      
             if(!props.fnamevalue){
                 setDisplayName("");

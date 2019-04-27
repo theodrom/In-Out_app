@@ -1,7 +1,7 @@
 import React, { Component, useEffect, useState } from 'react';
 import Profile from './Profile.jsx';
 import { gql } from 'apollo-boost';
-import { Query } from 'react-apollo';
+import { Query } from 'react-apollo'; 
 
 const GET_PERSONS = gql`
 query {
