@@ -1,9 +1,12 @@
-import React from 'react';  
+import React from 'react'; 
+import Button from './../../presentational/Buttons/Button.jsx'; 
 
 const BottomProfileSection = () => {
     return(
-        <section>
+        <section className="bottomProfileSection">
+            <Button>
 
+            </Button>
         </section>
     );
 };

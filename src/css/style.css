@@ -1,7 +1,5 @@
+@charset "UTF-8";
 .areaBtn {
-  width: 12.5vw;
-  height: 12.5vw;
-  background-color: gray;
   cursor: pointer;
   display: inline-block;
 }
@@ -11,11 +9,22 @@
   position: relative;
 }
 
-.avatar-holder {
+.upperProfileSection .areaBtn {
+  width: 10vw;
+  height: 10vw;
+  background-color: gray;
+}
+
+.upperProfileSection .avatar-holder {
   width: 45%;
   position: absolute;
-  left: 6.8vw;
-  top: .8vh;
+  left: 5.8vw;
+  top: .7vh;
+  background-color: greenyellow;
+}
+
+.avatar-holder {
+  border-radius: 50%;
 }
 
 .avatar-holder .avatar-img {
@@ -23,6 +32,39 @@
 }
 
 .profile-section {
-  width: 25vw;
+  width: 20vw;
+}
+
+.infoProfileSection {
+  padding: 2% 6%;
+}
+
+.infoProfileSection .label-info-p {
+  margin: 0;
+  padding: 3% 0;
+}
+
+.bottomProfileSection {
+  background-color: aqua;
+  padding: 2% 6%;
+}
+
+.bottomProfileSection .btn {
+  width: 100%;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+  height: 50px;
+  padding: 8px ;
+}
+
+.no-display {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */

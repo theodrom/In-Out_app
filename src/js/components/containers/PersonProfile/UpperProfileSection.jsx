@@ -3,10 +3,11 @@ import AreaButton from "../../presentational/Buttons/AreaButton.jsx";
 import Avatar from '../../presentational/Avatar.jsx';
 import User from './../../../../assets/img/user-circle-512.png';
 
-const UpperProfileSection = ({props}) => {
+const UpperProfileSection = (props) => {
+    
     return (
         <section className="upperProfileSection">
-            <Avatar userImg={User} />
+            <Avatar {...props} userimg={props.imageurl ? props.imageurl : User} />
             <AreaButton></AreaButton>
             <AreaButton></AreaButton>
         </section>

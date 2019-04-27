@@ -1,5 +1,21 @@
+$abWidth: 10vw;
+$abHeight: $abWidth;
 
-.upperProfileSection{
+.upperProfileSection {
     width: 100%;
     position: relative;
+
+    .areaBtn {
+        width: $abWidth;
+        height: $abHeight;
+        background-color: gray;
+    }
+
+    .avatar-holder {
+        width: 45%;
+        position: absolute;
+        left: 5.8vw;
+        top: .7vh;
+        background-color: greenyellow;
+    }
 }
