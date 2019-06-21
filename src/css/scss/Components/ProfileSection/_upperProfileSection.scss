@@ -1,21 +1,36 @@
+@import "./../../Helpers/baseHelpers";
+
 $abWidth: 10vw;
 $abHeight: $abWidth;
 
 .upperProfileSection {
-    width: 100%;
     position: relative;
+    background-color: $bnearit-color;
+    padding: 2%;
+    min-height: 110px;
 
-    .areaBtn {
-        width: $abWidth;
-        height: $abHeight;
-        background-color: gray;
+    .fas {
+        color:lightgray;
+        position: absolute;
+        top: 9%;
+        left: 4%;
     }
 
     .avatar-holder {
-        width: 45%;
-        position: absolute;
-        left: 5.8vw;
-        top: .7vh;
-        background-color: greenyellow;
+        width: 100px;
+        height: 100px;
+        background-color: gray;
+        border-radius:50%;
+        overflow: hidden;
+        box-shadow: 0 0 7px #4e4e4e;
+        margin: 5px auto;
+
+        .avatar-img{
+            height: 100%;
+            width: 100%;
+            min-width: 110px;
+            min-height: 110px;
+            object-fit: cover;
+        }
     }
 } 

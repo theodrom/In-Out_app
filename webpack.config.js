@@ -8,7 +8,7 @@ module.exports = {
     rules: [
       {
         test: /\.(js|jsx)$/,
-        exclude: /node_modules/,
+        exclude: /node_modules\/(?!(dom7|swiper)\/).*/,
         use: {
           loader: "babel-loader",
         }
@@ -22,7 +22,7 @@ module.exports = {
         ]
       },
       {
-        test: /\.css$/,
+        test: /\.(s*)css$/,
         use: [
           {
             loader : MiniCssExtractPlugin.loader,

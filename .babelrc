@@ -1,4 +1,16 @@
 {
-    "presets": ["@babel/preset-env", "@babel/preset-react"],
+    "presets": [["@babel/preset-env", {
+        "useBuiltIns": "usage",
+        "corejs": { "version": 3, "proposals": true },
+        "targets": {
+          "browsers": [
+            "> 5%",
+            "last 2 versions",
+            "not ie < 11",
+            "ios_saf >= 10.2"
+          ]
+        }
+      }],
+       "@babel/preset-react"],
     "plugins": ["react-hot-loader/babel"] 
 }

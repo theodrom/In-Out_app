@@ -5,11 +5,10 @@ const AreaButton = ({classname, pressed, onClickFunction}) => {
         onClickFunction(classname, pressed); 
     };
     return (
-    <div className={`areaBtn ${classname}`} role="button" onClick={handleClick} area-pressed={pressed}>
-        area button
-
-    </div>)
-    ;
+        <div className={`areaBtn ${classname}`} role="button" onClick={handleClick} area-pressed={pressed}>
+            <i className=""></i>
+        </div>
+    );
 };
 
 export default AreaButton;

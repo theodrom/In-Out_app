@@ -1,9 +1,48 @@
 
+@import "./../../Helpers/baseHelpers.scss";
+
 .infoProfileSection{
-    padding: 2% 6%;
+    padding: 2% 4%;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    font-size: .7em;
+    color: dimgray;
+    border-bottom: 1px solid lightgray;
 
     .label-info-p{
         margin: 0;
-        padding: 3% 0;
+        padding: 2% 0;
+        letter-spacing: .04em;
     }
+
+    .label-row-holder{
+        text-align: center;
+        div{
+            display: inline-block;
+            &:first-child{
+                padding-right: 4px;
+            }
+            &:last-child{
+                display: block;
+            }
+
+            &.name-label{
+                font-size: 1.2em;
+                color: $bnearit-color;
+                font-weight: 600;
+            }
+            &.spec-label{
+                font-size: 1.1em;
+                color: $bnearit-color;
+            }
+        }
+    }
+    .icon-span-in-row-holder{
+
+        span{
+            padding-left: 6px;
+        }
+    }
+
+    
 } 

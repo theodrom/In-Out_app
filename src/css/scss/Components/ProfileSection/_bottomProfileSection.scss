@@ -1,11 +1,32 @@
 
 .bottomProfileSection{
-    background-color: aqua;
-    padding: 2% 6%;
+    // background-color: aqua;
+    padding: 3%;
 
     .btn{
         width: 100%;
         font-size: 1.2em;
         text-transform: uppercase;
+    }
+
+    .icon-text-wrapper{
+        display: -webkit-flex;
+        -webkit-flex-flow: row wrap;
+        -webkit-align-items: initial;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: initial;
+        justify-content: space-around; 
+
+        .icon-text-holder{
+            width: 22%;
+            color: $bnearit-color;
+            padding: 1% 1.5%;
+            text-align: center;
+
+            .icon-text{
+                font-size: .65em;
+            }
+        }
     }
 } 

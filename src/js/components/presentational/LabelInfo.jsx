@@ -1,12 +1,12 @@
 import React, { useState } from 'react';  
 
 const LabelInfo = (props) => {
-    console.log(props.infovalue); 
+    // console.log(props.infovalue); 
     return(
-        <div className="">
+        <div className={props.extraclass}>
             <p className="label-info-p">
-                {/* <span className={`span-info-key ${displayState}`}>{infoKey}</span> */}
-                <span className="span-info-value">{props.infovalue}</span>
+                <i className={props.icon}> </i>
+                <span className="span-info-value"> {props.infovalue}</span>
             </p>
         </div>
     );

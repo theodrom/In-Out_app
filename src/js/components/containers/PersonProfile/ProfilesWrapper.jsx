@@ -24,11 +24,10 @@ query {
 const ProfileWrapper = () => (
      <Query asyncMode query={GET_PERSONS}>
           {({loading, error, data}) => {
-            console.log('data');
-              console.log(data);
+            {/* console.log('data');
+              console.log(data); */}
             if (loading) return <div>Loading...</div>;
             if (error) return <div>Error :(</div>;  
-            console.log(data.persons[0].firstname);
 
         return (
         <div className="profile-list-wrapper">
@@ -44,6 +43,15 @@ const ProfileWrapper = () => (
                     </Profile>
                 ))
             }
+            {/* <Profile
+                        key={data.persons[0].id}
+                        fnamevalue = {data.persons[0].firstname}
+                        lnamevalue = {data.persons[0].lastname}
+                        specvalue = {data.persons[0].speciality}
+                        emailvalue = {data.persons[0].email}
+                        mobilevalue = {data.persons[0].mobile[0]}
+                        imageurl = {data.persons[0].images[0].url}>
+                    </Profile> */}
         </div>
         );
     }}

@@ -1,8 +1,8 @@
 import React from 'react';  
 
-const Button = ({btnLabel, btnStateClass}) => {
+const Button = ({btnLabel, btnStateClass, swiperclass}) => {
     return(
-        <div className="btn-holder">
+        <div className={`${swiperclass} btn-holder`}>
             <button className={`btn ${btnStateClass} `}>
                 {btnLabel} button text 
             </button>

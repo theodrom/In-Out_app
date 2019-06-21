@@ -6,9 +6,8 @@ import User from './../../../../assets/img/user-circle-512.png';
 const UpperProfileSection = (props) => {
     return (
         <section className="upperProfileSection">
+        <i className="fas fa-ellipsis-v"></i>
             <Avatar {...props} userimg={props.imageurl ? props.imageurl : User} />
-            <AreaButton></AreaButton>
-            <AreaButton></AreaButton>
         </section>
     );
 };

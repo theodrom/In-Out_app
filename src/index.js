@@ -5,8 +5,7 @@ import ApolloClient from 'apollo-boost';
 import { ApolloProvider } from 'react-apollo';
 import { InMemoryCache } from 'apollo-cache-inmemory';
 import "./css/style.css";
-import FormContainer from "./js/components/Examples/FormContainer.jsx";
-import ProfilesWrapper from "./js/components/containers/PersonProfile/ProfilesWrapper.Class.jsx";
+import ProfilesWrapper from "./js/components/containers/PersonProfile/ProfilesWrapper.jsx";
 import apiUrl from "./graphcms/apiUrl.js";
 
 

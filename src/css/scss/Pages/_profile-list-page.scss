@@ -1,0 +1,11 @@
+
+.profile-list-wrapper{
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    -webkit-align-items: initial;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: initial;
+    justify-content: space-between; 
+    padding: 10px 1vw;
+}

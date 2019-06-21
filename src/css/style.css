@@ -1,26 +1,41 @@
 @charset "UTF-8";
 .areaBtn {
   cursor: pointer;
-  display: inline-block; 
+  display: inline-block;
 }
 
 .upperProfileSection {
-  width: 100%;
   position: relative;
+  background-color: #e96661;
+  padding: 2%;
+  min-height: 110px;
 }
 
-.upperProfileSection .areaBtn {
-  width: 10vw;
-  height: 10vw;
-  background-color: gray;
+.upperProfileSection .fas {
+  color: lightgray;
+  position: absolute;
+  top: 9%;
+  left: 4%;
 }
 
 .upperProfileSection .avatar-holder {
-  width: 45%;
-  position: absolute;
-  left: 5.8vw;
-  top: .7vh;
-  background-color: greenyellow;
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 7px #4e4e4e;
+          box-shadow: 0 0 7px #4e4e4e;
+  margin: 5px auto;
+}
+
+.upperProfileSection .avatar-holder .avatar-img {
+  height: 100%;
+  width: 100%;
+  min-width: 110px;
+  min-height: 110px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .avatar-holder {
@@ -32,27 +47,94 @@
 }
 
 .profile-section {
-  width: 20vw;
+  width: 210px;
+  -webkit-box-shadow: 0 0 5px #dad2d2;
+          box-shadow: 0 0 5px #dad2d2;
+  margin: 10px .7vw;
 }
 
 .infoProfileSection {
-  padding: 2% 6%;
+  padding: 2% 4%;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  font-size: .7em;
+  color: dimgray;
+  border-bottom: 1px solid lightgray;
 }
 
 .infoProfileSection .label-info-p {
   margin: 0;
-  padding: 3% 0;
+  padding: 2% 0;
+  letter-spacing: .04em;
+}
+
+.infoProfileSection .label-row-holder {
+  text-align: center;
+}
+
+.infoProfileSection .label-row-holder div {
+  display: inline-block;
+}
+
+.infoProfileSection .label-row-holder div:first-child {
+  padding-right: 4px;
+}
+
+.infoProfileSection .label-row-holder div:last-child {
+  display: block;
+}
+
+.infoProfileSection .label-row-holder div.name-label {
+  font-size: 1.2em;
+  color: #e96661;
+  font-weight: 600;
+}
+
+.infoProfileSection .label-row-holder div.spec-label {
+  font-size: 1.1em;
+  color: #e96661;
+}
+
+.infoProfileSection .icon-span-in-row-holder span {
+  padding-left: 6px;
 }
 
 .bottomProfileSection {
-  background-color: aqua;
-  padding: 2% 6%;
+  padding: 3%;
 }
 
 .bottomProfileSection .btn {
   width: 100%;
   font-size: 1.2em;
   text-transform: uppercase;
+}
+
+.bottomProfileSection .icon-text-wrapper {
+  display: -webkit-flex;
+  -webkit-align-items: initial;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: initial;
+      -ms-flex-align: initial;
+          align-items: initial;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.bottomProfileSection .icon-text-wrapper .icon-text-holder {
+  width: 22%;
+  color: #e96661;
+  padding: 1% 1.5%;
+  text-align: center;
+}
+
+.bottomProfileSection .icon-text-wrapper .icon-text-holder .icon-text {
+  font-size: .65em;
 }
 
 body {
@@ -66,5 +148,24 @@ body {
 
 .no-display {
   display: none;
+}
+
+.profile-list-wrapper {
+  display: -webkit-flex;
+  -webkit-align-items: initial;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: initial;
+      -ms-flex-align: initial;
+          align-items: initial;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 1vw;
 }
 /*# sourceMappingURL=style.css.map */
