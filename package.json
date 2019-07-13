@@ -52,6 +52,9 @@
   "dependencies": {
     "@material-ui/core": "^3.9.3",
     "core-js": "^3.1.4",
+    "ecstatic": "^4.1.2",
+    "fstream": "^1.0.12",
+    "js-yaml": "^3.13.1",
     "lodash": "^4.17.14",
     "lodash.mergewith": "^4.6.2",
     "react-id-swiper": "^2.1.2",
