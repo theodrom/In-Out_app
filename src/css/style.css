@@ -133,6 +133,11 @@
   text-align: center;
 }
 
+.bottomProfileSection .icon-text-wrapper .icon-text-holder.ic-active {
+  background-color: #e96661;
+  color: #fff;
+}
+
 .bottomProfileSection .icon-text-wrapper .icon-text-holder .icon-text {
   font-size: .65em;
 }

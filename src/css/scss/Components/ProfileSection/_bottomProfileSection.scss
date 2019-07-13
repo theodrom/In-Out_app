@@ -23,6 +23,10 @@
             color: $bnearit-color;
             padding: 1% 1.5%;
             text-align: center;
+            &.ic-active{
+                background-color: $bnearit-color;
+                color: #fff;
+            }
 
             .icon-text{
                 font-size: .65em;
