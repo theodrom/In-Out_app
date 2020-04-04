@@ -12,7 +12,7 @@
 }
 
 .upperProfileSection .fas {
-  color: lightgray;
+  color: white;
   position: absolute;
   top: 9%;
   left: 4%;
@@ -107,6 +107,9 @@
   width: 100%;
   font-size: 1.2em;
   text-transform: uppercase;
+  background-color: white;
+  border: 0;
+  color: #e96661;
 }
 
 .bottomProfileSection .icon-text-wrapper {
