@@ -56,7 +56,7 @@
     "eslint-utils": "^2.0.0",
     "fstream": "^1.0.12",
     "js-yaml": "^3.13.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "lodash.mergewith": "^4.6.2",
     "react-id-swiper": "^3.0.0",
     "swiper": "^5.3.6",
