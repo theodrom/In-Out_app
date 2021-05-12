@@ -59,7 +59,7 @@
     "lodash": "^4.17.15",
     "lodash.mergewith": "^4.6.2",
     "react-id-swiper": "^3.0.0",
-    "swiper": "^5.3.6",
+    "swiper": "^6.5.1",
     "tar": "^6.0.1"
   }
 }
